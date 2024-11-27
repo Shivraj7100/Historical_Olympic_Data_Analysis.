@@ -146,6 +146,8 @@ The dashboard's interactive filters (by year, season, and medal type) enable det
 Athlete Insights:
 
 Individual athlete contributions provide granular-level data, highlighting key performers who drove their countries’ success.
-Key Takeaway:
+## Key Takeaway:
 The dashboard is an effective tool for analyzing Olympic data, empowering stakeholders to identify patterns, assess areas of improvement, and celebrate consistent excellence in sports.
+## Final Output:
+![Screenshot 2024-11-27 234116](https://github.com/user-attachments/assets/62577a79-bfa9-473d-9b80-2c5ce85f7ae0)
 
