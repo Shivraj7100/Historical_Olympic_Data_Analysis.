@@ -69,27 +69,6 @@ This dashboard provides an in-depth analysis of Olympic performance over the yea
 
 -
 
-## DAX Calculations Used  
-
-- **Total Medal Count**:
-  ```DAX
-  Total Medal Count = COUNTROWS(Olympics[Medal])
-  ```
-- **Gender Ratio**:
-  ```DAX
-  Gender Ratio = 
-  DIVIDE(
-    CALCULATE(COUNT(Olympics[Gender]), Olympics[Gender] = "M"),
-    CALCULATE(COUNT(Olympics[Gender]))
-  )
-  ``
-- **Medal Distribution by Type**:
-  ```DAX
-  Gold Medal Count = COUNTX(FILTER(Olympics, Olympics[Medal] = "Gold"), Olympics[Medal])
-  ``
-
---
-
 ## Published Dashboard  
 
 - **Platform**: Power BI Service
